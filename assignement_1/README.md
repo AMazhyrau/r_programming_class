@@ -7,7 +7,7 @@ For this first programming assignment you will write three functions that are me
 ## Data
 
 The zip file containing the data can be downloaded here:
-![specdata.zip](https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fspecdata.zip)[2.4MB]
+[specdata.zip](https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fspecdata.zip)[2.4MB]
 The zip file contains 332 comma-separated-value (CSV) files containing pollution monitoring data for fine particulate matter (PM) air pollution at 332 locations in the United States. Each file contains data from a single monitor and the ID number for each monitor is contained in the file name. For example, data for monitor 200 is contained in the file "200.csv". Each file contains three variables:
 
 * Date: the date of the observation in YYYY-MM-DD format (year-month-day)
@@ -38,7 +38,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
 }
 `
 
-You can see some ![example output from this function](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fpollutantmean-demo.html). The function that you write should be able to match this output. Please save your code to a file named **pollutantmean.R**.
+You can see some [example output from this function](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fpollutantmean-demo.html). The function that you write should be able to match this output. Please save your code to a file named **pollutantmean.R**.
 
 ## Part 2
 
@@ -62,7 +62,7 @@ complete <- function(directory, id = 1:332) {
 }
 `
 
-You can see some ![example output from this function](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fcomplete-demo.html). The function that you write should be able to match this output. Please save your code to a file named **complete.R**. To run the submit script for this part, make sure your working directory has the file **complete.R** in it.
+You can see some [example output from this function](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fcomplete-demo.html). The function that you write should be able to match this output. Please save your code to a file named **complete.R**. To run the submit script for this part, make sure your working directory has the file **complete.R** in it.
 
 ## Part 3
 
@@ -84,4 +84,4 @@ corr <- function(directory, threshold = 0) {
 `
 
 For this function you will need to use the 'cor' function in R which calculates the correlation between two vectors. Please read the help page for this function via '?cor' and make sure that you know how to use it.
-You can see some ![example output from this function](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fcorr-demo.html). The function that you write should be able to match this output. Please save your code to a file named **corr.R**. To run the submit script for this part, make sure your working directory has the file **corr.R** in it.
+You can see some [example output from this function](https://d396qusza40orc.cloudfront.net/rprog%2Fdoc%2Fcorr-demo.html). The function that you write should be able to match this output. Please save your code to a file named **corr.R**. To run the submit script for this part, make sure your working directory has the file **corr.R** in it.
