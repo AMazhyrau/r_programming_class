@@ -38,7 +38,6 @@ best <- function(state, outcome) {
   column <- target_columns_from_table[match(outcome, outcomes)]
   
   ## Remove rows with Na values for target collumn and state
-  
   data_by_state <- 
     data_by_state[complete.cases(data_by_state[,column]),]
   
